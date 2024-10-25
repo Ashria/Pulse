@@ -12,7 +12,7 @@ function Contact() {
     Aos.init();
       },[])
   return (
-    <body className='bg-red-600 text-white Caviar'>
+    <body className='bg-red-600 text-white Caviar'  data-theme="light">
       <nav className="w-full z-50 " id='nav'>
   <div className="container border-b-4 border-b-white Caviar px-5 py-3 lg:px-8 mb-2 w-11/12 flex mx-auto justify-between">
   <Link to={"/"}><h1 className="Aurora text-xl lg:text-4xl w-2/3 lg:w-1/3 lg:p-5 text-left font-extrabold" data-aos="fade-down" data-aos-duration="800">
@@ -76,9 +76,9 @@ function Contact() {
     <div className="flex py-5 px-8 justify-between">
       <address className="text-lg lg:text-4xl leading-9 w-1/2">
         <span className='font-extrabold'>Address:</span> <br /><br />
-        Korte Hofstraat 1A <br /><br />
-        2011 DT <br /><br />
-        Haarlem <br /><br />
+        Korte Hofstraat 1A <br />
+        2011 DT <br />
+        Haarlem <br />
         The Netherlands
       </address>
 

@@ -26,7 +26,7 @@ function About() {
       },[])
    
   return (
-    <body className='Caviar  overflow-x-hidden aboutus'>
+    <body className='Caviar  overflow-x-hidden aboutus' data-theme="light">
       <nav className="w-full z-50 " id='nav'>
   <div className="container border-b-4 border-b-black Caviar px-5 py-3 lg:px-8  w-11/12 flex mx-auto justify-between">
   <Link to={"/"}><h1 className="Aurora text-xl lg:text-4xl w-2/3 lg:w-1/3 lg:p-5 text-left font-extrabold" data-aos="fade-down" data-aos-duration="800">
@@ -80,8 +80,8 @@ function About() {
 <video className='w-full mb-4 z-50' loop muted autoPlay>
         <source src={vid4} type="video/mp4" />
           </video>
-          <section id="about">
-  <div class="container mx-auto flex px-7 py-24 md:flex-row flex-col items-center">
+          <section id="about" data-aos="fade-up" data-aos-duration="800">
+  <div class="container mx-auto flex px-7 py-24 md:flex-row flex-col items-center" data-aos="fade-up" data-aos-duration="800">
     <div class=" md:w-1/2 w-5/6 mb-10 md:mb-0">
     <h2 class="title-font text-4xl text-center lg:text-left lg:text-7xl mb-4 font-bold Aurora text-blue-900">About Us
     </h2>
@@ -94,7 +94,7 @@ function About() {
     </div>
   </div>
 </section>
-  <div class=" px-7 py-24 mx-auto flex flex-col">
+  <div class=" px-7 py-24 mx-auto flex flex-col" data-aos="fade-up" data-aos-duration="800">
     <div class="lg:w-5/6 mx-auto">
       <div class="rounded-lg h-64 lg:h-80 overflow-hidden">
         <img alt="content" class="object-cover object-center h-full w-full" src={a1}/>
@@ -117,11 +117,11 @@ function About() {
       </div>
     </div>
   </div>
-  <section id='gallery'>
+  <section id='gallery' >
   <div class=" px-7 py-24 mx-auto flex flex-wrap">
    
     <div class="md:flex flex-wrap block md:-m-2 -m-1">
-      <div class="flex flex-wrap  w-full md:w-1/2 py-3">
+      <div class="flex flex-wrap  w-full md:w-1/2 py-3" data-aos="fade-up" data-aos-duration="800">
         <div class="md:p-2 p-1 w-1/2">
           <video className='w-full mb-4 z-50' loop muted autoPlay>
         <source src={vid2} type="video/mp4" />
@@ -136,7 +136,7 @@ function About() {
           <h2 className='text-lg md:text-xl lg:text-2xl font-bold tracking-wide leading-relaxed'>The utmost care is taken to ensure the finest material quality with us, using advanced fabric selection techniques and precision cutting technology. Each product is crafted in a controlled environment, where stringent quality standards are maintained through automated stitching processes and detailed hand-finishing procedures.</h2>
         </div>
       </div>
-      <div class="flex flex-wrap  w-full md:w-1/2 py-3">
+      <div class="flex flex-wrap  w-full md:w-1/2 py-3" data-aos="fade-up" data-aos-duration="800">
         <div class="md:p-2 p-1 w-full">
           <img alt="gallery" class="w-full  object-cover object-center block" src={a5}/>
         </div>
@@ -153,7 +153,7 @@ function About() {
     </div>
   </div>
 </section>
-  <section >
+  <section  data-aos="fade-up" data-aos-duration="800">
   <div class=" px-5 py-24 mx-auto">
     <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">

@@ -12,11 +12,8 @@ import a2 from "./images/shop2.jpg"
 import a3 from "./images/shop3.jpg"
 import a4 from "./images/shop4.jpg"
 import a5 from "./images/shop5.jpg"
-import t1 from "./images/about1.jpeg"
-import t2 from "./images/about5.jpg"
 import t3 from './images/about6.jpg'
 import t4 from "./images/about2.jpg"
-import t5 from "./images/about3.jpg"
 import t6 from "./images/about4.jpg"
 import a7 from "./images/shop7.jpg"
 import a10 from "./images/shop8.jpg"
@@ -30,7 +27,7 @@ function Shop() {
    
   return (
   
-    <body className='Cavier'>
+    <body className='Cavier overflow-x-hidden' data-theme="light">
     <nav className="w-full z-50 " id='nav'>
   <div className="container border-b-4 border-b-black Caviar px-5 py-3 lg:px-8  w-11/12 flex mx-auto justify-between">
   <Link to={"/"}><h1 className="Aurora text-xl lg:text-4xl w-2/3 lg:w-1/3 lg:p-5 text-left font-extrabold" data-aos="fade-down" data-aos-duration="800">
@@ -83,12 +80,12 @@ function Shop() {
   <div class=" px-8 py-12 mx-auto flex flex-wrap">
   
     <div class="md:flex block py-5 flex-wrap md:-m-2 -m-1">
-      <div class="flex flex-wrap md:w-1/2 w-full">
+      <div class="flex flex-wrap md:w-1/2 w-full" data-aos="fade-right" data-aos-duration="800">
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-yellow-400 object-center block" src={a1}/>
+        <Link to={"/product1"}> <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-yellow-400 object-center block" src={a1}/></Link>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-blue-400 object-center block" src={a2}/>
+        <Link to={"/product2"}>   <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-blue-400 object-center block" src={a2}/></Link>
         </div>
         <div class="md:p-2 p-1 w-full">
           <video className='w-full shadow-xl  rounded-full z-50' loop muted autoPlay>
@@ -96,36 +93,36 @@ function Shop() {
           </video>
         </div>
       </div>
-      <div class="flex flex-wrap md:w-1/2 w-full">
+      <div class="flex flex-wrap md:w-1/2 w-full" data-aos="fade-left" data-aos-duration="800">
         <div class="md:p-2 p-1 w-full">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-amber-500 object-center block" src={a4}/>
+        <Link to={"/product3"}> <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-amber-500 object-center block" src={a4}/></Link>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-orange-500 object-center block" src={a3}/>
+        <Link to={"/product4"}> <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-orange-500 object-center block" src={a3}/></Link>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-violet-500 object-center block" src={a5}/>
+        <Link to={"/product5"}>    <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-violet-500 object-center block" src={a5}/></Link>
         </div>
       </div>
     </div>
     <div class="md:flex block flex-wrap md:-m-2 -m-1">
-    <div class="flex flex-wrap md:w-1/2 w-full">
+    <div class="flex flex-wrap md:w-1/2 w-full" data-aos="fade-right" data-aos-duration="800">
         <div class="md:p-2 p-1 w-full">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-sky-400 object-center block" src={t6}/>
+        <Link to={"/product6"}> <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-sky-400 object-center block" src={t6}/></Link>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-yellow-500 object-center block" src={t3}/>
+        <Link to={"/product7"}>   <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-yellow-500 object-center block" src={t3}/></Link>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-red-800 object-center block" src={t4}/>
+        <Link to={"/product8"}> <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-red-800 object-center block" src={t4}/></Link>
         </div>
       </div>
-      <div class="flex flex-wrap md:w-1/2 w-full">
+      <div class="flex flex-wrap md:w-1/2 w-full" data-aos="fade-left" data-aos-duration="800">
         <div class="md:p-2 p-1 w-1/2">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-yellow-500 object-center block" src={a7}/>
+        <Link to={"/product9"}>    <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-yellow-500 object-center block" src={a7}/></Link>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-        <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-stone-300 object-center block" src={a10}/>
+        <Link to={"/product10"}>   <img alt="gallery" class="w-full object-cover h-full hover:p-2 transition-all shadow-xl bg-stone-300 object-center block" src={a10}/></Link>
         </div>
         <div class="md:p-2 p-1 w-full"> 
                <video className='w-full shadow-xl  rounded-full z-50' loop muted autoPlay>
